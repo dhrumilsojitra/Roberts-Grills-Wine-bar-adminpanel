@@ -21,6 +21,8 @@
             <h3>Dhrumil Sojitra</h3>
 
         </div>
+
+
         <div class="sidebar-section">
             <h3>General</h3>
         </div>
@@ -86,6 +88,132 @@
         </div>
         <div class="content">
             <div class="col-12 dashboard-user">
+               
+                <div class="col-3 card">
+                    <div class="card-contain">
+                        <div class="user">
+                            <i class="fa-solid fa-user user-icon"></i>
+                            <p class="user-count">2500</p>
+                            <p class="user-greeting">Welcome</p>
+                        </div>
+                        <div class="social-media">
+                            <div class="bg-social-media" style="    background: #3b5998;
+                            ">
+                                <i class="fa-brands fa-facebook-f social-icons"></i>
+                            </div>
+                            <div class="social-media-counter">
+                                <div class="counter-text">
+                                    <p class="followers">35K</p>
+                                    <p class="follower-grit">Friends</p>
+                                </div>
+                                <div class="counter-text">
+                                    <p class="followers">128</p>
+                                    <p class="follower-grit">Feeds</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 card">
+                    <div>
+                        <div class="user">
+                            <i class="fa-regular fa-clock user-icon blue1_color"></i>
+                            <p class="user-count">123.50</p>
+                            <p class="user-greeting">Average Time</p>
+                        </div>
+                        <div class="social-media">
+                            <div class="bg-social-media">
+                                <i class="fa-brands fa-twitter social-icons"></i>
+                            </div>
+                            <div class="social-media-counter">
+                                <div class="counter-text">
+                                    <p class="followers">584K</p>
+                                    <p class="follower-grit">Followers</p>
+                                </div>
+                                <div class="counter-text">
+                                    <p class="followers">978</p>
+                                    <p class="follower-grit">Tweets</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 card">
+                    <div class="card-contain">
+                        <div class="user">
+                            <i class="fa-solid fa-download user-icon green_color"></i>
+                            <p class="user-count">1805</p>
+                            <p class="user-greeting">Collections</p>
+                        </div>
+                        <div class="social-media">
+                            <div class="bg-social-media" style="    background: #0077B5;
+                            ">
+                                <i class="fa-brands fa-linkedin-in social-icons"></i>
+                            </div>
+                            <div class="social-media-counter">
+                                <div class="counter-text">
+                                    <p class="followers">758+</p>
+                                    <p class="follower-grit">Contacts</p>
+                                </div>
+                                <div class="counter-text">
+                                    <p class="followers">365</p>
+                                    <p class="follower-grit">Feeds</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 card">
+                    <div class="card-contain">
+                        <div class="user">
+                            <i class="fa-solid fa-comment user-icon red_color"></i>
+                            <p class="user-count">54</p>
+                            <p class="user-greeting">Comments</p>
+                        </div>
+                        <div class="social-media">
+                            <div class="bg-social-media" style="    background: #d34836;
+                            ">
+                                <i class="fa-brands fa-google-plus-g social-icons" ></i>
+                            </div>
+                            <div class="social-media-counter">
+                                <div class="counter-text">
+                                    <p class="followers">450</p>
+                                    <p class="follower-grit">Followers</p>
+                                </div>
+                                <div class="counter-text">
+                                    <p class="followers">57</p>
+                                    <p class="follower-grit">Circles</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="col-12 dashboard-user">
+                <div class="col-6 card">
+                    <div class="chart-container">
+                        <canvas id="chart"></canvas>
+                    </div>
+                </div>
+                <div class="col-6 card">
+                    <div id="chart2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 dashboard-user">
+                <div class="col-12 card">
+                    <div class="chart3">
+                        <canvas id="myChart" width="400" height="130"></canvas>
+                    </div>
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+                </div>
+
+
+            </div>
+
+            <div class="col-12 dashboard-user">
                 <div class="col-3 card">
 
                 </div>
@@ -100,8 +228,8 @@
                 <div class="col-12 card">
 
                 </div>
-                
-                
+
+
             </div>
             <div class="col-12 dashboard-user">
                 <div class="col-6 card">
@@ -111,44 +239,18 @@
 
                 </div>
             </div>
-            <div class="col-12 dashboard-user">
-                <div class="col-3 card">
 
-                </div>
-                <div class="col-3 card">
-
-                </div>
-                <div class="col-3 card">
-
-                </div>
-            </div>
-            <div class="col-12 dashboard-user">
-                <div class="col-12 card">
-
-                </div>
-                
-                
-            </div>
-            <div class="col-12 dashboard-user">
-                <div class="col-6 card">
-
-                </div>
-                <div class="col-6 card">
-
-                </div>
-            </div>
-         
         </div>
         <footer class="footer">
             <p>Copyright &copy; 2023.All rights reserved</p>
         </footer>
-       
+
     </section>
 
     <script>
         $(document).ready(function () {
             $(".toggle-bar").click(function () {
-                $(".sidebar").toggleClass("toggle-sidebar", 3000);
+                $(".sidebar").toggleClass("toggle-sidebar");
                 $(".profile").toggleClass("toggle-profile");
                 $(".sidebar-section").toggleClass("toggle-sidebar-section");
                 $(".sidebar-menu-item").toggleClass("toggle-sidebar-menu-item");
@@ -159,7 +261,220 @@
             $(".profile-btn").click(function () {
                 $(".profile-btn-menu").toggle();
             });
+
         });
+    </script>
+    <!-- chart js script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+    <script>
+        var data = {
+            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+            datasets: [{
+                label: "Dataset #1",
+                backgroundColor: "rgba(255,99,132,0.2)",
+                borderColor: "rgba(255,99,132,1)",
+                borderWidth: 2,
+                hoverBackgroundColor: "rgba(255,99,132,0.4)",
+                hoverBorderColor: "rgba(255,99,132,1)",
+                data: [65, 59, 20, 81, 56, 55, 40],
+            }]
+        };
+
+        var options = {
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    stacked: true,
+                    grid: {
+                        display: true,
+                        color: "rgba(255,99,132,0.2)"
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        };
+
+        new Chart('chart', {
+            type: 'bar',
+            options: options,
+            data: data
+        });
+
+    </script>
+
+    <!-- apex js script -->
+    <script src="https://apexcharts.com/samples/assets/stock-prices.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+        var options = {
+            series: [
+                {
+                    data: [10, 20, 15, 30, 35, 30, 45, 59, 30, 35, 25, 29, 15]
+                }
+            ],
+            chart: {
+                type: "area",
+                height: 320,
+                background: "white",
+                dropShadow: {
+                    enabled: true,
+                    color: "#000"
+                },
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            markers: {
+                colors: ["black"]
+            },
+            stroke: {
+                curve: "smooth",
+                width: 3,
+                fill: {
+                    type: "gradient",
+                    gradient: {
+                        type: "horizontal",
+                        colorStops: [
+                            [
+                                {
+                                    offset: 0,
+                                    color: "#0085FF",
+                                    opacity: 1
+                                },
+                                {
+                                    offset: 33,
+                                    color: "#FF2E92",
+                                    opacity: 1
+                                },
+                                {
+                                    offset: 80,
+                                    color: "#FFAC2F",
+                                    opacity: 1
+                                },
+                                {
+                                    offset: 99,
+                                    color: "#FFFFFF",
+                                    opacity: 1
+                                }
+                            ]
+                        ]
+                    }
+                }
+            },
+            fill: {
+                type: "gradient",
+                gradient: {
+                    shadeIntensity: 1,
+                    type: "vertical",
+                    colorStops: [
+                        [
+                            {
+                                offset: 0,
+                                color: "#F48116",
+                                opacity: 1.0
+                            },
+                            {
+                                offset: 70,
+                                color: "#6510F8",
+                                opacity: 0.2
+                            },
+                            {
+                                offset: 97,
+                                color: "#6510F8",
+                                opacity: 0.0
+                            }
+                        ]
+                    ]
+                }
+            },
+            xaxis: {
+                axisBorder: {
+                    show: false
+                },
+                axisTicks: {
+                    show: false
+                },
+                labels: {
+                    style: {
+                        colors: "#aaa"
+                    }
+                }
+            },
+            yaxis: {
+                labels: {
+                    show: false
+                }
+            },
+            grid: {
+                borderColor: "#222226"
+            },
+            legend: {
+                horizontalAlign: "left"
+            },
+            theme: {
+                mode: "light"
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart2"), options);
+        chart.render();
+
+    </script>
+    <!-- chart 3 script -->
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'line', // also try bar or other graph types
+
+            // The data for our dataset
+            data: {
+                labels: ["Jun 2016", "Jul 2016", "Aug 2016", "Sep 2016", "Oct 2016", "Nov 2016", "Dec 2016", "Jan 2017", "Feb 2017", "Mar 2017", "Apr 2017", "May 2017"],
+                // Information about the dataset
+                datasets: [{
+                    label: "Rainfall",
+                    backgroundColor: 'lightblue',
+                    borderColor: 'royalblue',
+                    data: [26.4, 39.8, 66.8, 66.4, 40.6, 55.2, 77.4, 69.8, 57.8, 76, 110.8, 142.6],
+                }]
+            },
+
+            // Configuration options
+            options: {
+                layout: {
+                    padding: 10,
+                },
+                legend: {
+                    position: 'bottom',
+                },
+                title: {
+                    display: true,
+                    text: 'Precipitation in Toronto'
+                },
+                scales: {
+                    yAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Precipitation in mm'
+                        }
+                    }],
+                    xAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Month of the Year'
+                        }
+                    }]
+                }
+            }
+        });
+
     </script>
 </body>
 
